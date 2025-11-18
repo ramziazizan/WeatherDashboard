@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard - Medan</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Pencarian Cuaca Real-time</h1>
+        
+        <div class="search-box">
+            <input type="text" id="city-input" placeholder="Masukkan nama kota..." value="Medan, ID">
+            <button id="search-btn">Cari</button>
+        </div>
+
+        <div id="weather-result" class="weather-card">
+            <p class="loading-text">Sedang memuat data cuaca...</p>
+        </div>
+
+        <div id="error-message" class="error-msg">
+            </div>
+    </div>
+    
+    <script src="script.js"></script> 
+</body>
+</html>
