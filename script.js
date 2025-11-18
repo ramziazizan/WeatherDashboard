@@ -1,7 +1,7 @@
 // script.js
 
 // !!! PENTING: GANTI DENGAN KUNCI API ANDA DARI OpenWeatherMap !!!
-const API_KEY = "d465dd69625ce58779f41538627eb353"; 
+const API_KEY = "a7828f00e8a3a6d923a96c1a3b87e1a6"; 
 // Ganti "YOUR_API_KEY_HERE" dengan kunci yang Anda dapatkan setelah mendaftar di OpenWeatherMap.
 
 const cityInput = document.getElementById('city-input');
