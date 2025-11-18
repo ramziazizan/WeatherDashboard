@@ -1,0 +1,98 @@
+/* style.css */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #e9ecef;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 450px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    font-weight: 700;
+}
+
+/* SEARCH BOX */
+.search-box {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#city-input {
+    flex-grow: 1;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px 0 0 8px;
+    font-size: 16px;
+}
+
+#search-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 0 8px 8px 0;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+#search-btn:hover {
+    background-color: #0056b3;
+}
+
+/* WEATHER CARD DISPLAY */
+.weather-card {
+    padding: 25px;
+    border-radius: 10px;
+    background: linear-gradient(135deg, #6dd5fa 0%, #2980b9 100%); /* Latar belakang biru */
+    color: white;
+    text-align: center;
+    min-height: 150px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.city-name {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.temperature {
+    font-size: 60px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.description {
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 5px;
+}
+
+.details {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    font-size: 14px;
+    opacity: 0.9;
+}
+
+.error-msg {
+    color: #dc3545;
+    text-align: center;
+    margin-top: 15px;
+    font-weight: 600;
+}
